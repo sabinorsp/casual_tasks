@@ -1,0 +1,224 @@
+date,time1,time2
+"Dec 26, 2022",Brentford   B,S   Spurs
+"Dec 26, 2022",Crystal Palace   C,F   Fulham
+"Dec 26, 2022",Everton   E,W   Wolves
+"Dec 26, 2022",Leicester   L,N   Newcastle
+"Dec 26, 2022",Southampton   S,B   Brighton
+"Dec 26, 2022",Aston Villa   A,L   Liverpool
+"Dec 26, 2022",Arsenal   A,W   West Ham
+"Dec 27, 2022",Chelsea   C,B   Bournemouth
+"Dec 27, 2022",Man Utd   M,N   Nott'm Forest
+"Dec 28, 2022",Leeds   L,M   Man City
+"Dec 30, 2022",West Ham   W,B   Brentford
+"Dec 30, 2022",Liverpool   L,L   Leicester
+"Dec 31, 2022",Wolves   W,M   Man Utd
+"Dec 31, 2022",Bournemouth   B,C   Crystal Palace
+"Dec 31, 2022",Fulham   F,S   Southampton
+"Dec 31, 2022",Man City   M,E   Everton
+"Dec 31, 2022",Newcastle   N,L   Leeds
+"Dec 31, 2022",Brighton   B,A   Arsenal
+"Jan 1, 2023",Spurs   S,A   Aston Villa
+"Jan 1, 2023",Nott'm Forest   N,C   Chelsea
+"Jan 2, 2023",Brentford   B,L   Liverpool
+"Jan 3, 2023",Arsenal   A,N   Newcastle
+"Jan 3, 2023",Everton   E,B   Brighton
+"Jan 3, 2023",Leicester   L,F   Fulham
+"Jan 3, 2023",Man Utd   M,B   Bournemouth
+"Jan 4, 2023",Southampton   S,N   Nott'm Forest
+"Jan 4, 2023",Leeds   L,W   West Ham
+"Jan 4, 2023",Aston Villa   A,W   Wolves
+"Jan 4, 2023",Crystal Palace   C,S   Spurs
+"Jan 5, 2023",Chelsea   C,M   Man City
+"Jan 12, 2023",Fulham   F,C   Chelsea
+"Jan 13, 2023",Aston Villa   A,L   Leeds
+"Jan 14, 2023",Man Utd   M,M   Man City
+"Jan 14, 2023",Brighton   B,L   Liverpool
+"Jan 14, 2023",Everton   E,S   Southampton
+"Jan 14, 2023",Nott'm Forest   N,L   Leicester
+"Jan 14, 2023",Wolves   W,W   West Ham
+"Jan 14, 2023",Brentford   B,B   Bournemouth
+"Jan 15, 2023",Chelsea   C,C   Crystal Palace
+"Jan 15, 2023",Newcastle   N,F   Fulham
+"Jan 15, 2023",Spurs   S,A   Arsenal
+"Jan 19, 2023",Man City   M,S   Spurs
+"Jan 21, 2023",Liverpool   L,C   Chelsea
+"Jan 21, 2023",Bournemouth   B,N   Nott'm Forest
+"Jan 21, 2023",Leicester   L,B   Brighton
+"Jan 21, 2023",Southampton   S,A   Aston Villa
+"Jan 21, 2023",West Ham   W,E   Everton
+"Jan 21, 2023",Crystal Palace   C,N   Newcastle
+"Jan 22, 2023",Leeds   L,B   Brentford
+"Jan 22, 2023",Man City   M,W   Wolves
+"Jan 22, 2023",Arsenal   A,M   Man Utd
+"Jan 23, 2023",Fulham   F,S   Spurs
+"Feb 4, 2023",Aston Villa   A,L   Leicester
+"Feb 4, 2023",Brentford   B,S   Southampton
+"Feb 4, 2023",Brighton   B,B   Bournemouth
+"Feb 4, 2023",Chelsea   C,F   Fulham
+"Feb 4, 2023",Everton   E,A   Arsenal
+"Feb 4, 2023",Man Utd   M,C   Crystal Palace
+"Feb 4, 2023",Newcastle   N,W   West Ham
+"Feb 4, 2023",Nott'm Forest   N,L   Leeds
+"Feb 4, 2023",Spurs   S,M   Man City
+"Feb 4, 2023",Wolves   W,L   Liverpool
+"Feb 11, 2023",Arsenal   A,B   Brentford
+"Feb 11, 2023",Bournemouth   B,N   Newcastle
+"Feb 11, 2023",Crystal Palace   C,B   Brighton
+"Feb 11, 2023",Fulham   F,N   Nott'm Forest
+"Feb 11, 2023",Leeds   L,M   Man Utd
+"Feb 11, 2023",Leicester   L,S   Spurs
+"Feb 11, 2023",Liverpool   L,E   Everton
+"Feb 11, 2023",Man City   M,A   Aston Villa
+"Feb 11, 2023",Southampton   S,W   Wolves
+"Feb 11, 2023",West Ham   W,C   Chelsea
+"Feb 15, 2023",Arsenal   A,M   Man City
+"Feb 18, 2023",Aston Villa   A,A   Arsenal
+"Feb 18, 2023",Brentford   B,C   Crystal Palace
+"Feb 18, 2023",Brighton   B,F   Fulham
+"Feb 18, 2023",Chelsea   C,S   Southampton
+"Feb 18, 2023",Everton   E,L   Leeds
+"Feb 18, 2023",Man Utd   M,L   Leicester
+"Feb 18, 2023",Newcastle   N,L   Liverpool
+"Feb 18, 2023",Nott'm Forest   N,M   Man City
+"Feb 18, 2023",Spurs   S,W   West Ham
+"Feb 18, 2023",Wolves   W,B   Bournemouth
+"Feb 25, 2023",Bournemouth   B,M   Man City
+"Feb 25, 2023",Crystal Palace   C,L   Liverpool
+"Feb 25, 2023",Everton   E,A   Aston Villa
+"Feb 25, 2023",Fulham   F,W   Wolves
+"Feb 25, 2023",Leeds   L,S   Southampton
+"Feb 25, 2023",Leicester   L,A   Arsenal
+"Feb 25, 2023",Man Utd   M,B   Brentford
+"Feb 25, 2023",Newcastle   N,B   Brighton
+"Feb 25, 2023",Spurs   S,C   Chelsea
+"Feb 25, 2023",West Ham   W,N   Nott'm Forest
+"Mar 4, 2023",Arsenal   A,B   Bournemouth
+"Mar 4, 2023",Aston Villa   A,C   Crystal Palace
+"Mar 4, 2023",Brentford   B,F   Fulham
+"Mar 4, 2023",Brighton   B,W   West Ham
+"Mar 4, 2023",Chelsea   C,L   Leeds
+"Mar 4, 2023",Liverpool   L,M   Man Utd
+"Mar 4, 2023",Man City   M,N   Newcastle
+"Mar 4, 2023",Nott'm Forest   N,E   Everton
+"Mar 4, 2023",Southampton   S,L   Leicester
+"Mar 4, 2023",Wolves   W,S   Spurs
+"Mar 11, 2023",Bournemouth   B,L   Liverpool
+"Mar 11, 2023",Crystal Palace   C,M   Man City
+"Mar 11, 2023",Everton   E,B   Brentford
+"Mar 11, 2023",Fulham   F,A   Arsenal
+"Mar 11, 2023",Leeds   L,B   Brighton
+"Mar 11, 2023",Leicester   L,C   Chelsea
+"Mar 11, 2023",Man Utd   M,S   Southampton
+"Mar 11, 2023",Newcastle   N,W   Wolves
+"Mar 11, 2023",Spurs   S,N   Nott'm Forest
+"Mar 11, 2023",West Ham   W,A   Aston Villa
+"Mar 18, 2023",Arsenal   A,C   Crystal Palace
+"Mar 18, 2023",Aston Villa   A,B   Bournemouth
+"Mar 18, 2023",Brentford   B,L   Leicester
+"Mar 18, 2023",Brighton   B,M   Man Utd
+"Mar 18, 2023",Chelsea   C,E   Everton
+"Mar 18, 2023",Liverpool   L,F   Fulham
+"Mar 18, 2023",Man City   M,W   West Ham
+"Mar 18, 2023",Nott'm Forest   N,N   Newcastle
+"Mar 18, 2023",Southampton   S,S   Spurs
+"Mar 18, 2023",Wolves   W,L   Leeds
+"Apr 1, 2023",Arsenal   A,L   Leeds
+"Apr 1, 2023",Bournemouth   B,F   Fulham
+"Apr 1, 2023",Brighton   B,B   Brentford
+"Apr 1, 2023",Chelsea   C,A   Aston Villa
+"Apr 1, 2023",Crystal Palace   C,L   Leicester
+"Apr 1, 2023",Everton   E,S   Spurs
+"Apr 1, 2023",Man City   M,L   Liverpool
+"Apr 1, 2023",Newcastle   N,M   Man Utd
+"Apr 1, 2023",Nott'm Forest   N,W   Wolves
+"Apr 1, 2023",West Ham   W,S   Southampton
+"Apr 8, 2023",Aston Villa   A,N   Nott'm Forest
+"Apr 8, 2023",Brentford   B,N   Newcastle
+"Apr 8, 2023",Fulham   F,W   West Ham
+"Apr 8, 2023",Leeds   L,C   Crystal Palace
+"Apr 8, 2023",Leicester   L,B   Bournemouth
+"Apr 8, 2023",Liverpool   L,A   Arsenal
+"Apr 8, 2023",Man Utd   M,E   Everton
+"Apr 8, 2023",Southampton   S,M   Man City
+"Apr 8, 2023",Spurs   S,B   Brighton
+"Apr 8, 2023",Wolves   W,C   Chelsea
+"Apr 15, 2023",Aston Villa   A,N   Newcastle
+"Apr 15, 2023",Chelsea   C,B   Brighton
+"Apr 15, 2023",Everton   E,F   Fulham
+"Apr 15, 2023",Leeds   L,L   Liverpool
+"Apr 15, 2023",Man City   M,L   Leicester
+"Apr 15, 2023",Nott'm Forest   N,M   Man Utd
+"Apr 15, 2023",Southampton   S,C   Crystal Palace
+"Apr 15, 2023",Spurs   S,B   Bournemouth
+"Apr 15, 2023",West Ham   W,A   Arsenal
+"Apr 15, 2023",Wolves   W,B   Brentford
+"Apr 22, 2023",Arsenal   A,S   Southampton
+"Apr 22, 2023",Bournemouth   B,W   West Ham
+"Apr 22, 2023",Brentford   B,A   Aston Villa
+"Apr 22, 2023",Brighton   B,M   Man City
+"Apr 22, 2023",Crystal Palace   C,E   Everton
+"Apr 22, 2023",Fulham   F,L   Leeds
+"Apr 22, 2023",Leicester   L,W   Wolves
+"Apr 22, 2023",Liverpool   L,N   Nott'm Forest
+"Apr 22, 2023",Man Utd   M,C   Chelsea
+"Apr 22, 2023",Newcastle   N,S   Spurs
+"Apr 25, 2023",Everton   E,N   Newcastle
+"Apr 25, 2023",Leeds   L,L   Leicester
+"Apr 25, 2023",Nott'm Forest   N,B   Brighton
+"Apr 25, 2023",Spurs   S,M   Man Utd
+"Apr 25, 2023",West Ham   W,L   Liverpool
+"Apr 25, 2023",Wolves   W,C   Crystal Palace
+"Apr 25, 2023",Aston Villa   A,F   Fulham
+"Apr 26, 2023",Chelsea   C,B   Brentford
+"Apr 26, 2023",Southampton   S,B   Bournemouth
+"Apr 26, 2023",Man City   M,A   Arsenal
+"Apr 29, 2023",Arsenal   A,C   Chelsea
+"Apr 29, 2023",Bournemouth   B,L   Leeds
+"Apr 29, 2023",Brentford   B,N   Nott'm Forest
+"Apr 29, 2023",Brighton   B,W   Wolves
+"Apr 29, 2023",Crystal Palace   C,W   West Ham
+"Apr 29, 2023",Fulham   F,M   Man City
+"Apr 29, 2023",Leicester   L,E   Everton
+"Apr 29, 2023",Liverpool   L,S   Spurs
+"Apr 29, 2023",Man Utd   M,A   Aston Villa
+"Apr 29, 2023",Newcastle   N,S   Southampton
+"May 6, 2023",Bournemouth   B,C   Chelsea
+"May 6, 2023",Brighton   B,E   Everton
+"May 6, 2023",Fulham   F,L   Leicester
+"May 6, 2023",Liverpool   L,B   Brentford
+"May 6, 2023",Man City   M,L   Leeds
+"May 6, 2023",Newcastle   N,A   Arsenal
+"May 6, 2023",Nott'm Forest   N,S   Southampton
+"May 6, 2023",Spurs   S,C   Crystal Palace
+"May 6, 2023",West Ham   W,M   Man Utd
+"May 6, 2023",Wolves   W,A   Aston Villa
+"May 13, 2023",Arsenal   A,B   Brighton
+"May 13, 2023",Aston Villa   A,S   Spurs
+"May 13, 2023",Brentford   B,W   West Ham
+"May 13, 2023",Chelsea   C,N   Nott'm Forest
+"May 13, 2023",Crystal Palace   C,B   Bournemouth
+"May 13, 2023",Everton   E,M   Man City
+"May 13, 2023",Leeds   L,N   Newcastle
+"May 13, 2023",Leicester   L,L   Liverpool
+"May 13, 2023",Man Utd   M,W   Wolves
+"May 13, 2023",Southampton   S,F   Fulham
+"May 20, 2023",Bournemouth   B,M   Man Utd
+"May 20, 2023",Brighton   B,S   Southampton
+"May 20, 2023",Fulham   F,C   Crystal Palace
+"May 20, 2023",Liverpool   L,A   Aston Villa
+"May 20, 2023",Man City   M,C   Chelsea
+"May 20, 2023",Newcastle   N,L   Leicester
+"May 20, 2023",Nott'm Forest   N,A   Arsenal
+"May 20, 2023",Spurs   S,B   Brentford
+"May 20, 2023",West Ham   W,L   Leeds
+"May 20, 2023",Wolves   W,E   Everton
+"May 28, 2023",Arsenal   A,W   Wolves
+"May 28, 2023",Aston Villa   A,B   Brighton
+"May 28, 2023",Brentford   B,M   Man City
+"May 28, 2023",Chelsea   C,N   Newcastle
+"May 28, 2023",Crystal Palace   C,N   Nott'm Forest
+"May 28, 2023",Everton   E,B   Bournemouth
+"May 28, 2023",Leeds   L,S   Spurs
+"May 28, 2023",Leicester   L,W   West Ham
+"May 28, 2023",Man Utd   M,F   Fulham
+"May 28, 2023",Southampton   S,L   Liverpool

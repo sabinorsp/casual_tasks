@@ -1,0 +1,8 @@
+
+Web scraping -- one static page only
+
+url: 
+https://www.sportsmole.co.uk/football/premier-league/fixtures.html
+
+Data in csv file:
+Date, team1, team2
