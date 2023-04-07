@@ -18,16 +18,16 @@ A script realiza a carga dos dados html e faz a busca dos nós através dos nome
 
 ---
 
-## extract_data_tradinfview: 
+## extract_data_tradingview: 
 
-## Objective:
+### Objective:
 Extract data from TradingView using package Tv data feed:
 
 Executing some rule to filter data;  
 Saving the results on a sheet in google sheet.  
 The API of TradingView are avaliable on: https://br.tradingview.com/rest-api-spec/  
 
-## Instructions  
+### Instructions  
 install package tv datafeed - pip install --upgrade --no-cache-dir git+https://github.com/StreamAlpha/tvdatafeed.git  
 install gspread - pip install gspread  
 install gsread_dataframe - pip install gspread_dataframe  
