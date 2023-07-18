@@ -1,5 +1,8 @@
 import pandas as pd
+import numpy as np
+import seaborn as sns
 import matplotlib.pyplot as plt
+
 from sklearn.model_selection import StratifiedKFold
 from sklearn.base import clone
 from sklearn.metrics import mean_squared_error
@@ -19,8 +22,8 @@ class EDA:
             encoding (str): The encoding of the CSV files.
 
         Returns:
-            Dict[str, pd.DataFrame]: A dictionary where each key is the name of a CSV file (without the '.csv' extension)
-                                    and each value is a pandas dataframe containing the data from the corresponding CSV file.
+            dict : A dictionary where each key is the name of a CSV file (without the '.csv' extension)
+                   and each value is a pandas dataframe containing the data from the corresponding CSV file.
         """
         df_dic = {}
         for filename in os.listdir(path):
@@ -33,7 +36,7 @@ class EDA:
     @staticmethod
     def summary_dataframes(df) -> print :
         """ 
-        Return a summary about total register, type of columns, values null and 
+        Return a summary about total rows registers, type of columns, values null and 
         rows duplicated.
         
         Args:
@@ -62,10 +65,6 @@ class EDA:
             None.
 
         Example:
-            >>> import pandas as pd
-            >>> import numpy as np
-            >>> import seaborn as sns
-            >>> import matplotlib.pyplot as plt
             >>> np.random.seed(42)
             >>> series = pd.Series(np.random.choice(['A', 'B', 'C'], size=100))
             >>> plot_balanced_class(series)
