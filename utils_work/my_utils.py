@@ -54,21 +54,20 @@ class EDA:
 
 
     @staticmethod
-    def plot_balanced_class(series):
+    def plot_balanced_class(series, name_serie):
         """
         Plot the counts and percentages of a balanced class series using a bar chart.
 
         Args:
             series (pandas.Series): A pandas Series object representing a balanced class.
-
-        Returns:
-            None.
+            name_serie (str): A name about pandas.Serie object.
 
         Example:
             >>> np.random.seed(42)
             >>> series = pd.Series(np.random.choice(['A', 'B', 'C'], size=100))
             >>> plot_balanced_class(series)
         """
+        series.name = name_serie
         value_counts = series.value_counts()
         percentages = value_counts / len(series) * 100
         colors = sns.color_palette('colorblind')
