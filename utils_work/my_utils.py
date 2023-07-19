@@ -1,8 +1,5 @@
 import pandas as pd
-import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
-
 from sklearn.model_selection import StratifiedKFold
 from sklearn.base import clone
 from sklearn.metrics import mean_squared_error
@@ -22,8 +19,8 @@ class EDA:
             encoding (str): The encoding of the CSV files.
 
         Returns:
-            dict : A dictionary where each key is the name of a CSV file (without the '.csv' extension)
-                   and each value is a pandas dataframe containing the data from the corresponding CSV file.
+            Dict[str, pd.DataFrame]: A dictionary where each key is the name of a CSV file (without the '.csv' extension)
+                                    and each value is a pandas dataframe containing the data from the corresponding CSV file.
         """
         df_dic = {}
         for filename in os.listdir(path):
@@ -36,7 +33,7 @@ class EDA:
     @staticmethod
     def summary_dataframes(df) -> print :
         """ 
-        Return a summary about total rows registers, type of columns, values null and 
+        Return a summary about total register, type of columns, values null and 
         rows duplicated.
         
         Args:
@@ -54,20 +51,25 @@ class EDA:
 
 
     @staticmethod
-    def plot_balanced_class(series, name_serie):
+    def plot_balanced_class(series):
         """
         Plot the counts and percentages of a balanced class series using a bar chart.
 
         Args:
             series (pandas.Series): A pandas Series object representing a balanced class.
-            name_serie (str): A name about pandas.Serie object.
+
+        Returns:
+            None.
 
         Example:
+            >>> import pandas as pd
+            >>> import numpy as np
+            >>> import seaborn as sns
+            >>> import matplotlib.pyplot as plt
             >>> np.random.seed(42)
             >>> series = pd.Series(np.random.choice(['A', 'B', 'C'], size=100))
             >>> plot_balanced_class(series)
         """
-        series.name = name_serie
         value_counts = series.value_counts()
         percentages = value_counts / len(series) * 100
         colors = sns.color_palette('colorblind')
@@ -93,6 +95,41 @@ class EDA:
         '''
         return {val: key for key,value in dic.items() for val in value}
     
+
+    @staticmethod
+    def define_column_type(df,**kwargs):
+        """
+        Transform the type (str,float64,int64) of data about selected columns of dataframe.
+        
+        Args:
+            df (pandas.DataFrame()): dataframe
+            kwargs (dict): Dictionary contain the column name : type of data( str,int64 or float64)
+        
+        Return:
+            pandas.DataFrame(): The modified dataframe.
+            
+        Example: 
+            data = pd.DataFrame({
+                'steam_id':['123','7263',None,'9878'],
+                'title': ['titulo1', 'titulo2', 'titulo3', 'titulo4'],
+                'tag_id_steam':['15123', '123521', '092', '234']
+                })
+            columns_type = {
+                'steam_id':'Int64',
+                'title': 'str',
+                'tag_id_steam': 'Float64',
+                }
+            data = define_type_data(data, **columns_type)
+        """
+        for col in kwargs:
+            if kwargs.get(col).lower() == 'int64':
+                df[col] = pd.to_numeric(df[col]).astype('Int64')
+            elif kwargs.get(col).lower() =='float64':
+                df[col] = pd.to_numeric(df[col]).astype('Float64')
+            elif kwargs.get(col).lower() =='str':
+                df[col] = df[col].astype('str')
+        return df
+
 
 class ML:
 
